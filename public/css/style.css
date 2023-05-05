@@ -1,0 +1,11 @@
+.nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 150px;
+    width: 100%;
+    background-color: aqua;
+}
+h1{
+    color: red;
+}

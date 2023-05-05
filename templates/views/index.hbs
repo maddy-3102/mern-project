@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registeration</title>
+    <link rel="stylesheet" href="../../public/css/style.css">
+</head>
+<style>
+    .dashboard{
+        position: absolute;
+        top: 40px;
+        padding-top: 30px;
+        width: 100%;
+        left: 0;
+        height: 100vh;
+        background-color: rgb(139, 139, 139);
+        color: #fff;
+        padding-left: 20px;
+    }
+    .img1 img{
+        height: 30px;
+        width: 30px;
+        background-image: url('./images/rocket.svg');
+        background-size: contain;
+        
+    }
+    
+    .img1-click img{
+
+    }
+</style>
+<body>
+    {{>navbar}}
+    <div class="dashboard">
+    <h1>hi broo..</h1>
+    <span class="img1"><img src="./images/rocket.svg" alt=""></span>
+    <span class="img2">
+        <img src="./images/rocket-takeoff-fill.svg" alt="">
+    </span>
+    <h3>this is my home page..</h3>
+    </div>
+</body>
+</html>

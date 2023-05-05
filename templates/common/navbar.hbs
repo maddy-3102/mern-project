@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <link rel="stylesheet" href="../../public/css/style.css">
+</head>
+<style>
+    .nav{
+    z-index: 12;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 75px;
+    width: 100%;
+    background-color: rgb(139, 139, 139);
+    border-bottom: 1px solid rgb(179, 182, 182);
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    list-style: none;
+}
+.nav li{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+</style>
+<body>
+    <div class="nav">
+        <ul>
+            <li class="home">
+                <a href="/">Home</a>
+                </li>
+            <li class="login">
+                <a href="/login">Login</a>
+            </li>
+            <li class="reg">
+                <a href="/register">Register</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
+
